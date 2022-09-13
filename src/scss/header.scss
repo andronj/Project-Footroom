@@ -1,0 +1,123 @@
+.header {
+    position: relative;
+    padding: 40px 0px 120px 0px;
+    background: url(../img/header-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-description {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: $_white;
+    margin-bottom: 130px;
+    border-bottom: 1px solid $_grey;
+    padding-bottom: 15px;
+    margin: 0 -15px;
+}
+.header-address {
+    margin-right: 10px;
+}
+.header-description-logo {
+    margin-right: 10px;
+}
+.fa-brands {
+    margin-right: 3px;
+    font-size: $_18px;
+    cursor: pointer;
+}
+
+.header-description-phone a{
+    color: $_white;
+}
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+.header-logo {
+    margin: 0 15px;
+}
+.header-menu {
+    margin: 0 15px;
+}
+.header-menu-list {
+    display: flex;
+    align-items: center;
+}
+.header-menu-list-item {
+    margin-left: 25px;
+}
+.header-menu-list-item a {
+    font-weight: 700;
+    font-size: $_13px;
+    line-height: 15px;
+    color: $_white;
+    transition: 0.2s;
+}
+.header-menu-burger {
+    color: $_white;
+    font-size: $_30px;
+    display: none;
+    margin: 0 15px;
+}
+.fa-solid {
+    color: $_white;
+    font-size: $_18px;
+}
+
+.header-items {
+    margin: 0 15px;
+    
+
+}
+.search {
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.search input {
+    outline: none;
+    border: none;
+}
+.fa-square-user {
+    color: $_white;
+}
+.fa-bag-shopping {
+    font-size: $_24px;
+}
+.header-title {
+    margin-top: 50px;
+    font-size: $_64px;
+    color: $_white;
+    line-height: 75px;
+}
+.header-podtext {
+    margin: 25px 0px 25px 0px;
+    color: $_white;
+    font-size: $_24px;
+}
+.btn {
+    font-family: 'Raleway';
+    display: inline-block;
+    width: 370px;
+    padding: 20px;
+    background: $_white;
+    font-weight: 900;
+    font-size: $_18px;
+    line-height: 28px;
+    color: $_black;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: $_green;
+}
